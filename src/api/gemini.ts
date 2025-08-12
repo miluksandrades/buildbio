@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { environments } from "./enviroments";
+import { environments } from "./envs";
 
 export interface PromptProps {
     name?: string;
