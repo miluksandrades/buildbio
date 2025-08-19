@@ -108,7 +108,7 @@ export const BioForm = ({ setResponse, setLoading }: Props) => {
             <button
                 type="submit"
                 onClick={handleResponse}
-                className="bg-blue-500 text-white py-2 px-4 rounded"
+                className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 hover:cursor-pointer transition-all"
             >
                 Gerar Bio
             </button>
